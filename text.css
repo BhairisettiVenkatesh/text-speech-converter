@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing:border-box;
+ font-family:'Poppins',sans-serif;
+}
+.container{
+    width:100%;
+    min-height:100vh;
+    background-image: linear-gradient(to left bottom, #0600e3, #4d00db, #6a00d4, #7f00cd, #8f00c6, #9615c8, #9c22cb, #a22dcd, #a33bd9, #a448e4, #a454f0, #a45ffb);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.container h1{
+    font-size:45px;
+    font-weight:90;
+     margin-top:-50px;
+     margin-bottom:50px;
+    color:#18f2e3
+
+}
+.container h1 span{
+  color:white;
+}
+textarea{
+    height:300px;
+    width:620px;
+    background-color:#403d84;
+    color:#fff;
+    border:0;
+    resize:none;
+    margin-bottom:30px;
+    padding:20px;outline:0;
+    font-size:22px;
+    border-radius:10px
+}
+textarea::placeholder{
+    font-size:22px;
+    color:#ddd;
+
+}
+.row{
+    width:600px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+}
+button{
+    background-color:#ff2963;
+    color:#fff;
+    font-size:20px;
+    border:none;
+    border-radius:20px;
+    width:120px;
+    padding:10px 30px;
+    cursor:pointer;
+
+
+}
+button:hover{
+  
+  cursor:click;
+}
+button:active {
+       background-color: #3e8e41; /* Darker shade on click */
+       transform: translateY(2px); /* Slight downward movement */
+     }
+select{
+    flex:1;
+   padding:0px 20px;
+   height:50px;
+   color:#fff;
+   background-color: #403d84;
+   outline:0;
+   border:0;
+   border-radius:35px;
+}
